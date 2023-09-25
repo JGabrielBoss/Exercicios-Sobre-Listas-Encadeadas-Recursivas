@@ -21,7 +21,7 @@ class Main {
         //Construa os métodos que imprima na tela os valores armazenados nos 
         //nós da Lista Encadeada.
         l.show();   // imprime na tela os valores armazenados na lista
-
+        System.out.println(" ");
         System.out.println("2) ============");
         //Construa os métodos que retornem a quantidade de nós da Lista Encadeada.
         System.out.println(l.size());
@@ -82,6 +82,7 @@ class Main {
         l.inverte();
         l.show();
 
+        System.out.println(" ");
         System.out.println("13) ============");
         //Escreva os métodos para a Classe lista e Node, usando recursividade, que encontre 
         //a soma dos elementos de uma lista encadeada que são pares.
